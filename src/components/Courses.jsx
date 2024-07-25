@@ -40,7 +40,11 @@ const Courses = () => {
   };
 
   return (
-    <div className="w-9/12 p-10 rounded-md bg-white flex flex-col items-center justify-center">
+    <div className="w-9/12 px-10 py-4 rounded-md bg-white flex flex-col items-center justify-center">
+      <div className="w-full flex justify-start flex-col py-1">
+        <h1 className="font-bold text-2xl">Manage Bundle</h1>
+        <p className="text-sm">Change orders of the products based on priority</p>
+      </div>
       <DragDropContext onDragEnd={onDragEnd}>
         <Droppable droppableId="droppable">
           {(provided) => (

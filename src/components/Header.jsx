@@ -12,7 +12,7 @@ const Header = () => {
                 isActive ? "p-1 border-b-2 font-semibold" : "p-1 hover:border-b-2"
               }
             >
-              Home
+              OTP-Form
             </NavLink>
           </li>
           <li>
